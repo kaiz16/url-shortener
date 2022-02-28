@@ -1,5 +1,4 @@
 #!/bin/bash
-cd ..
 git checkout --orphan gh-pages
 echo "Build started..."
 npm run build
