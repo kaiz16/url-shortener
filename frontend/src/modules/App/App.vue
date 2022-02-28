@@ -18,9 +18,11 @@ export default {
 html,
 body,
 #app {
-  height: 100%;
-  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
 }
+
 #content {
   width: 100%;
   height: 100%;

@@ -2,7 +2,7 @@ process.env.VUE_APP_VERSION = require("./package.json").version;
 const path = require("path");
 const src = "./src";
 module.exports = {
-  publicPath: "/url-shortener/",
+  publicPath: process.env.NODE_ENV === "production" ? "/url-shortener/" : "/",
   configureWebpack: {
     resolve: {
       alias: {
