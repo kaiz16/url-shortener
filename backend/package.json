@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon NODE_ENV=development index.js",
+    "start": "nodemon NODE_ENV=production index.js"
+  },
+  "keywords": [],
+  "author": "kaiz16",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
+
+  .content-label {
+    @apply text-xs text-gray-500 font-medium;
+  }
+
+  .content-text {
+    @apply text-xs text-gray-900;
+  }
+
+  .content-title {
+    @apply my-6 text-2xl leading-8 font-semibold text-gray-900;
+  }
+
+  .content-subtitle {
+    @apply my-6 text-xl leading-8 font-semibold text-gray-900;
+  }
+}
